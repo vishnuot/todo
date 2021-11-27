@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/vishnuot/todo.git/static/css/main.86ca8ff2.chunk.css",
+    "main.js": "/vishnuot/todo.git/static/js/main.76dce7c4.chunk.js",
+    "main.js.map": "/vishnuot/todo.git/static/js/main.76dce7c4.chunk.js.map",
+    "runtime-main.js": "/vishnuot/todo.git/static/js/runtime-main.e1cae2ac.js",
+    "runtime-main.js.map": "/vishnuot/todo.git/static/js/runtime-main.e1cae2ac.js.map",
+    "static/js/2.f995c488.chunk.js": "/vishnuot/todo.git/static/js/2.f995c488.chunk.js",
+    "static/js/2.f995c488.chunk.js.map": "/vishnuot/todo.git/static/js/2.f995c488.chunk.js.map",
+    "static/js/3.8e5a06ab.chunk.js": "/vishnuot/todo.git/static/js/3.8e5a06ab.chunk.js",
+    "static/js/3.8e5a06ab.chunk.js.map": "/vishnuot/todo.git/static/js/3.8e5a06ab.chunk.js.map",
+    "index.html": "/vishnuot/todo.git/index.html",
+    "static/css/main.86ca8ff2.chunk.css.map": "/vishnuot/todo.git/static/css/main.86ca8ff2.chunk.css.map",
+    "static/js/2.f995c488.chunk.js.LICENSE.txt": "/vishnuot/todo.git/static/js/2.f995c488.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/vishnuot/todo.git/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e1cae2ac.js",
+    "static/js/2.f995c488.chunk.js",
+    "static/css/main.86ca8ff2.chunk.css",
+    "static/js/main.76dce7c4.chunk.js"
+  ]
+}
