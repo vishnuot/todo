@@ -29,7 +29,6 @@ export default class Todo extends Component {
   // Submit action old method ***end***
 
   //Submit action new  method ***start***
-
   submitActionNew = (event) => {
     let { input, values } = this.state;
     if (input === "") {
@@ -39,8 +38,13 @@ export default class Todo extends Component {
       this.setState({ values: [...values, input], input: "" });
     }
   };
-
   // Submit action new method ***end***
+  // Delete method ***Start***
+  deleteAction = (key) => {
+    let { input, values } = this.state;
+    this.setState({ values: values.filter((itm, ky) => key !== ky) });
+  };
+  // Delete method ***End***
   render() {
     let { input, values } = this.state; // destructuring
 
@@ -55,7 +59,7 @@ export default class Todo extends Component {
                 onChange={this.inputHandleChange}
                 value={input}
               />
-              <button onClick={this.submitActionNew}>add data</button>
+              <button onClick={this.submitActionNew}>SUBMIT</button>
             </form>
           </div>
           <ul>
@@ -63,7 +67,10 @@ export default class Todo extends Component {
               return (
                 <li key="index">
                   {itm}
-                  <i className="fas fa-trash"></i>
+                  <i
+                    className="fas fa-trash"
+                    onClick={() => this.deleteAction(index)}
+                  ></i>
                 </li>
               );
             })}
