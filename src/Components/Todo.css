@@ -1,54 +1,55 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
-.todo-body{
-    height: 100vh;
-    background-color:#698894;
+.todo-body {
+  height: 100vh;
+  background-color: #698894;
 }
 
-.todo-container{
-    width: 380px;
-    background-color:#465d66;
-    position: absolute;
-    left: 50%;
-    top: 30%;
-    transform: translate(-50%, -30%);
-    text-align: center;
-    border-radius: 5px;
+.todo-container {
+  width: 380px;
+  background-color: #465d66;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -30%);
+  text-align: center;
+  border-radius: 5px;
 }
-.todo-container h2{
-    margin: 0;
-    padding: 0;
+.todo-container h2 {
+  margin: 0;
+  padding: 0;
 }
-.input-section input{
-    margin-top: 10px;
-    width: 100%;
-    box-sizing: border-box;
-    border-radius: 5px;
-    padding: 5px;
-    background-color : #d1d1d1;
-    
+.input-section input {
+  margin-top: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #d1d1d1;
 }
-.input-section input:focus{
-    outline: none;
+.input-section input:focus {
+  outline: none;
 }
-ul{
-
-    list-style: none;
-    margin-top: 10px;
+ul {
+  list-style: none;
+  margin-top: 10px;
 }
 
-ul li{
-    border: 1px solid #616f74;
-    border-radius: 6px;
-    padding: 5px;
-    margin-top: 8px;
-    text-align: left;
-    color: #252d30;
-    display: flex;
-   
-    justify-content: space-between;
+ul li {
+  border: 1px solid #616f74;
+  border-radius: 6px;
+  padding: 5px;
+  margin-top: 8px;
+  text-align: left;
+  color: #252d30;
+  display: flex;
+
+  justify-content: space-between;
+}
+ul li i{
+    cursor: pointer;
 }
